@@ -1,0 +1,18 @@
+{
+  "name": "yougexiaoyuan_crash_course",
+  "version": "1.0.0",
+  "description": "有个小院快速学习实战小案例",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,5 @@
+// bower是一款优秀的前端包及依赖管理工具，借鉴了npm。
+//这个文件主要用来配置安装路径，如果不指定则默认安装到当前目录下的bower_components目录中。
+{
+  "directory": "public/bower_components"
+}

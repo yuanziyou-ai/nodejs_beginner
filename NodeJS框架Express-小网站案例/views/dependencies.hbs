@@ -1,0 +1,24 @@
+<h2 class="landing landing__api-title">
+  <img src="/dependency.svg" />
+  本站依赖的包package
+  <img src="/dependency.svg" />
+</h2>
+
+<div class="landing__hero">
+  <ul class="list">
+    {{#dependencies}}
+    <li>
+      {{name}} <span class="version">{{version}}</span>
+    </li>
+    {{/dependencies}}
+  </ul>
+</div>
+<div style="margin: 0px; text-align:center;padding:5px;">
+  <div>| [express](https://www.npmjs.com/package/express) | Fast, unopinionated, minimalist web framework for node. |
+  </div>
+  <div>| [bent](https://www.npmjs.com/package/bent) | Functional HTTP client for Node.js and Browsers with async/await.|
+  </div>
+
+  <div>| [hbs](https://www.npmjs.com/package/hbs) | Express.js view engine for handlebars.js |</div>
+</div>
+</div>
